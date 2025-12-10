@@ -1,0 +1,45 @@
+.modal_overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal_box {
+  background-color: #0f0f0f;
+  color: white;
+  width: 80%;
+  max-width: 800px;
+  max-height: 80vh;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.modal_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter';
+  margin-bottom: 16px;
+}
+
+.modal_close {
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.modal_query {
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.4;
+}

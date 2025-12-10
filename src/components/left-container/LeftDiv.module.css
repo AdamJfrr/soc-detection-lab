@@ -1,0 +1,107 @@
+.leftDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 28%;
+  border-right: 1px solid white;
+}
+
+.top_part {
+  height: 60%;
+  padding: 12px;
+}
+
+.title {
+  width: 100%;
+  font-size: 26px;
+  color: white;
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+.overview {
+  width: 100%;
+  font-size: 14px;
+  color: white;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.bottom_part {
+  height: 40%;
+}
+
+.header {
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.header p {
+  padding-left: 12px;
+}
+
+.button_div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+@media (max-width: 1200px) {
+  .leftDiv {
+    width: 32%;
+  }
+}
+
+@media (max-width: 992px) {
+  .leftDiv {
+    width: 38%;
+  }
+  .title {
+    font-size: 22px;
+  }
+  .overview {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftDiv {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+  .top_part {
+    height: auto;
+  }
+  .bottom_part {
+    height: auto;
+    margin-top: 16px;
+  }
+  .button_div {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 20px;
+  }
+  .overview {
+    font-size: 12px;
+  }
+  .button_div {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 8px;
+  }
+  .header {
+    font-size: 16px;
+  }
+}
