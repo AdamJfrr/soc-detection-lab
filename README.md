@@ -5,7 +5,7 @@
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://AdamJfrr.github.io/soc-detection-lab)
 [![GitHub](https://img.shields.io/badge/GitHub-AdamJfrr-blue)](https://github.com/AdamJfrr)
 
-**Built by Adam Jaafar** | Berlin, Germanu   
+**Built by Adam Jaafar** | Berlin, Germany   
 **Certifications:** CompTIA Security+ | CySA+ | A+
 
 ---
