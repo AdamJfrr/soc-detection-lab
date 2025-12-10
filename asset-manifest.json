@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/soc-detection-lab/static/css/main.df88cd2f.css",
+    "main.js": "/soc-detection-lab/static/js/main.95d2b03c.js",
+    "static/js/453.1f908d42.chunk.js": "/soc-detection-lab/static/js/453.1f908d42.chunk.js",
+    "static/media/4.png": "/soc-detection-lab/static/media/4.b5dfe4c92d07e9fe64f2.png",
+    "static/media/3.png": "/soc-detection-lab/static/media/3.4e9ced780d8f319d7130.png",
+    "static/media/5.png": "/soc-detection-lab/static/media/5.8fef4f0886cff75c37ee.png",
+    "static/media/2.png": "/soc-detection-lab/static/media/2.9c00a85207b706c411fc.png",
+    "static/media/1.png": "/soc-detection-lab/static/media/1.12ee7d5ed4d32ebfabc4.png",
+    "static/media/6.png": "/soc-detection-lab/static/media/6.aeb57276eb4e28545ff6.png",
+    "index.html": "/soc-detection-lab/index.html",
+    "main.df88cd2f.css.map": "/soc-detection-lab/static/css/main.df88cd2f.css.map",
+    "main.95d2b03c.js.map": "/soc-detection-lab/static/js/main.95d2b03c.js.map",
+    "453.1f908d42.chunk.js.map": "/soc-detection-lab/static/js/453.1f908d42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df88cd2f.css",
+    "static/js/main.95d2b03c.js"
+  ]
+}
